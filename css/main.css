@@ -1,0 +1,281 @@
+/**********************************
+******* Author Sapna Naveen *******
+***********************************/
+
+/**********************************
+GENERAL
+***********************************/
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #716558;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 2.5em;
+	color: #D04E1C;
+}
+
+section {
+	padding-top: 30px;
+	height: 1000px;
+}
+
+/**********************************
+HEADING
+***********************************/
+.header-cont {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: rgba(255,255,255,0.9);
+	height: 210px;
+}
+
+.nav {
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px 0 0 0;
+}
+
+.logo {
+	display: inline-block;
+}
+
+
+.myname {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 50px;
+	font-size: 1.2em;
+}
+
+.myname p {
+	margin: 0 auto;
+	line-height: 1;
+	font-weight: 300;
+}
+
+
+.nav ul {
+	list-style: none;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding-left: 50px;
+	font-family: 'Souce Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 40px;
+	height: 40px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #716558;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.nav a:hover,
+.nav a.focus,
+.nav a.selected {
+	color: #D04E1C;
+	margin: 1em 0 1em;
+}
+
+/**********************************
+WELCOME
+***********************************/
+
+
+
+.welcome {
+	background-image: url(../img/bg3.jpg);
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 text-align: center;
+	 height: 500px;
+	 margin-top: 210px;
+}
+
+
+.welcome h1 {
+	display: inline-block;
+	font-weight: 200;
+	font-size: 4em;
+	color: #D04E1C;
+	padding-top: 20px;
+	
+}
+
+.icon {
+	display: inline-block;
+	padding: 0 40px 0 40px;
+	text-align: center;
+}
+
+
+.welcome p {
+	font-size: 1.2em;
+	color: #D04E1C;
+}
+
+/**********************************
+ABOUT
+***********************************/
+
+
+.about {
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	height: 600px;
+	padding-top: 100px;
+	padding-bottom: -60px;
+}
+
+.about img {
+	float: left;
+	margin-right: 10px;
+	clear: both;
+}
+
+.about p {
+	margin-left: 0px;
+	overflow: auto;
+	display: block;
+	padding: 40px 20px 0 30px;
+	white-space: pre-line;
+}
+
+
+/**********************************
+MY WORK
+***********************************/
+
+.mywork {
+	width: 1000px;
+	height: 600px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/*.flex-container {
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+}*/
+
+.port {
+	width: 300px;
+	height: 200px;
+	display: inline;
+}
+
+.mywork img {
+	padding: 15px;
+}
+
+
+/**********************************
+RESUME
+***********************************/
+
+.resume {
+	width: 1000px;
+	height: auto;
+box-sizing: border-box;
+	margin: 0 auto;
+	padding-right: 13%;	
+}
+
+.resume p em {
+	margin: 0 auto;
+}
+
+.resume em {
+	padding-right: 10px;
+}
+
+.resume hr {
+	margin: 1em 0 1em;
+}
+
+.js-expander {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 1em;
+	width: 1em;
+	text-indent: -9999px;
+
+}
+.js-expander:focus {
+	outline: 0;
+}
+.js-expander[aria-expanded='false'] {
+	background: url('./../img/plus.jpg') no-repeat;
+}
+.js-expander[aria-expanded='true'] {
+	background: url('./../img/minus.jpg') no-repeat;
+}
+/**********************************
+STICKY FOOTER
+***********************************/
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.page-wrap:after {
+  height: 50px;
+}
+
+.site-footer {
+  background-color: #7D6F61;
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  margin-bottom: auto;
+  margin-top: 60px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
