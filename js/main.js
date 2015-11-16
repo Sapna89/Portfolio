@@ -10,9 +10,9 @@ function supports_html5_storage() {
 
 
 
-localStorage.setItem("firstName", "Kitsudar");
+localStorage.setItem("firstName", "Sapna");
 
-localStorage.setItem("lastName", "Somchana");
+localStorage.setItem("lastName", "Naveen");
 
 localStorage.setItem("courseName", "ICT4510");
 
